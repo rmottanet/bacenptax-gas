@@ -2,30 +2,31 @@
 
 ## ctrl+s :v:
 
-**BacenPtax** is a JavaScript library for Google Apps Script to obtain currency quotes from the Central Bank of Brazil (Bacen) via the PTAX system. This library makes it easy to integrate your projects with the most up-to-date exchange rate data, allowing you to build customized solutions for your needs.
+**BacenPtax** é uma biblioteca JavaScript para o Google Apps Script para obter cotações de moedas do Banco Central do Brasil (Bacen) através do sistema PTAX. Essa biblioteca facilita a integração de seus projetos com os dados de câmbio mais atualizados, permitindo que você construa soluções personalizadas para suas necessidades.
 
 
-## Features:
+## Funcionalidades:
 
-* **Quotation retrieval:** Retrieves the quotations of various currencies on a specific date.
-* **Date formatting:** Formats dates to meet the requirements of the Bacen API.
-* **Endpoint construction:** Automatically generates endpoints for HTTP requests.
-* **Ease of use:** Simple and intuitive interface for interacting with the Bacen API.
+* **Obtenção de cotações:** Recupera as cotações de diversas moedas em uma data específica.
+* **Formatação de datas:** Formata datas para atender aos requisitos da API do Bacen.
+* **Construção de endpoints:** Gera automaticamente os endpoints para as requisições HTTP.
+* **Facilidade de uso:** Interface simples e intuitiva para interagir com a API do Bacen.
 
 
-## How to use:
+## Como usar:
 
-To use **BacenPtax** in your Google Apps Script, follow these steps:
+Para utilizar o **BacenPtax** em seu script do Google Apps Script, siga os seguintes passos:
 
-1. Open the Google Apps Script script where you want to use the library.
-2. Go to **Library > Add libraries**.
-3. Paste the project ID:
+1. Abra o script do Google Apps Script onde deseja utilizar a biblioteca.
+2. Acesse **Biblioteca > Adicionar bibliotecas**.
+3. Cole a ID do projeto:
 
 ```plaintext
 1mu3XX24jnB9iIr5Zwfse4BGwPYxn0YQR_ChnrvuXu6BaHdqW_RnUych6
 ```
 
-**Exemple:**
+
+**Exemplo:**
 
 ```javascript
 function getDollarQuote() {
@@ -40,7 +41,7 @@ function getDollarQuote() {
 
 ---
 
-Thank you for considering the **BacenPtax** for your needs. If you have any questions or need further assistance, please don't hesitate to reach out.
+Agradeço por considerar **BacenPtax** para as suas necessidades. Se você tiver alguma dúvida ou precisar de mais assistência, não hesite em entrar em contato.
 
 <br />
 <br />
